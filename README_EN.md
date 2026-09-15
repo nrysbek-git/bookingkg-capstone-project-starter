@@ -1,4 +1,4 @@
-# CloudOps Academy — Student Starter
+# BookingKG — Student Starter
 
 [Русский](README.md) | [English](README_EN.md)
 
@@ -8,29 +8,29 @@ document the complete delivery platform.
 
 ## Expected application
 
-The final result is a working CloudOps Academy platform. The screenshots show
+The final result is a working BookingKG platform. The screenshots show
 the expected application; you must build the containers, infrastructure,
 Kubernetes deployment, and CI/CD process yourself.
 
 | Sign in | Create account |
 | --- | --- |
-| ![CloudOps Academy sign in](docs/screenshots/sign-in.png) | ![CloudOps Academy registration](docs/screenshots/register.png) |
+| ![BookingKG sign in](docs/screenshots/sign-in.png) | ![BookingKG registration](docs/screenshots/register.png) |
 
 ### Dashboard
 
-![CloudOps Academy dashboard](docs/screenshots/dashboard.png)
+![BookingKG dashboard](docs/screenshots/dashboard.png)
 
 ### DevOps assessment
 
-![CloudOps Academy assessment](docs/screenshots/assessment.png)
+![BookingKG assessment](docs/screenshots/assessment.png)
 
 ### Leaderboard
 
-![CloudOps Academy leaderboard](docs/screenshots/leaderboard.png)
+![BookingKG leaderboard](docs/screenshots/leaderboard.png)
 
 ### Swagger API documentation
 
-![CloudOps Academy API documentation](docs/screenshots/api-docs.png)
+![BookingKG API documentation](docs/screenshots/api-docs.png)
 
 ## What you receive
 

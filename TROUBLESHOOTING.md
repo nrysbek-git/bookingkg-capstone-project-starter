@@ -66,9 +66,9 @@ aws configure list
 ### Pod имеет `Pending`, `ImagePullBackOff` или `CrashLoopBackOff`
 
 ```bash
-kubectl -n cloudops-academy get pods
-kubectl -n cloudops-academy describe pod POD_NAME
-kubectl -n cloudops-academy logs POD_NAME --previous
+kubectl -n bookingkg get pods
+kubectl -n bookingkg describe pod POD_NAME
+kubectl -n bookingkg logs POD_NAME --previous
 ```
 
 Проверьте scheduling events, image URI/tag, ECR permissions, environment
@@ -79,8 +79,8 @@ variables, Secret references, probes и database connectivity.
 Сравните Service selector с labels Pod:
 
 ```bash
-kubectl -n cloudops-academy get service,endpoints
-kubectl -n cloudops-academy get pods --show-labels
+kubectl -n bookingkg get service,endpoints
+kubectl -n bookingkg get pods --show-labels
 ```
 
 ### Load Balancer долго создаётся

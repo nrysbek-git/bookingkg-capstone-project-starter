@@ -1,62 +1,29 @@
-# CloudOps Academy — Student Starter
+# BookingKG — Student Starter
 
-[Русский](README.md) | [English](README_EN.md)
+Это стартовый репозиторий итогового DevOps capstone.
 
-Это starter repository для итогового DevOps capstone.
+Студент получает готовый application layer:
 
-## Как должен выглядеть готовый проект
+- `frontend/` — React-интерфейс BookingKG;
+- `backend/` — Node.js/Express API;
+- `database/init.sql` — начальная схема PostgreSQL;
+- [ASSIGNMENT.md](ASSIGNMENT.md) — полное техническое задание;
+- материалы по требованиям, оцениванию, диагностике и AWS cleanup.
 
-После выполнения задания студент получит работающую учебную платформу CloudOps
-Academy. Скриншоты показывают ожидаемый application result; infrastructure,
-containers и deployment студент создаёт самостоятельно.
+Приложение поддерживает регистрацию, каталог, избранное, проверку свободных
+дат, дополнительные услуги, бронирования, отмену и ваучер.
 
-### Вход и регистрация
+Студент самостоятельно создаёт:
 
-| Sign in | Create account |
-| --- | --- |
-| ![CloudOps Academy sign in](docs/screenshots/sign-in.png) | ![CloudOps Academy registration](docs/screenshots/register.png) |
+- Dockerfile для frontend и backend;
+- Docker Compose для локального запуска;
+- Kubernetes manifests для Amazon EKS;
+- Terraform для VPC, EKS, ECR, RDS и IAM;
+- GitHub Actions CI/CD через OIDC;
+- документацию, evidence и cleanup-инструкцию.
 
-### Dashboard
+В starter намеренно отсутствуют готовые Docker, Kubernetes, Terraform и CI/CD
+реализации. Не добавляйте в Git пароли, AWS keys, `.env`, kubeconfig или
+Terraform state.
 
-![CloudOps Academy dashboard](docs/screenshots/dashboard.png)
-
-### DevOps assessment
-
-![CloudOps Academy assessment](docs/screenshots/assessment.png)
-
-### Leaderboard
-
-![CloudOps Academy leaderboard](docs/screenshots/leaderboard.png)
-
-### Swagger API documentation
-
-![CloudOps Academy API documentation](docs/screenshots/api-docs.png)
-
-Вам предоставлен только готовый application layer:
-
-- `frontend/` — React frontend;
-- `backend/` — Node.js/Express REST API;
-- `database/init.sql` — PostgreSQL schema;
-- `ASSIGNMENT.md` — полное техническое задание;
-- `PREREQUISITES.md` — необходимые знания, инструменты и доступы;
-- `GRADING_RUBRIC.md` — правила оценивания и уровни выполнения;
-- `TROUBLESHOOTING.md` — безопасная диагностика типичных ошибок;
-- `COST_AND_CLEANUP.md` — AWS budget и обязательное удаление ресурсов.
-
-Начните с [требований перед стартом](PREREQUISITES.md), затем прочитайте
-[полное задание](ASSIGNMENT.md) и [критерии оценки](GRADING_RUBRIC.md).
-Ваша задача — самостоятельно
-создать containerization, local environment, cloud infrastructure, Kubernetes,
-CI/CD, DNS и HTTPS.
-
-В starter намеренно отсутствуют:
-
-- Dockerfiles и Docker Compose;
-- Terraform;
-- Kubernetes manifests;
-- Helm configuration (Helm необязателен);
-- GitHub Actions workflows;
-- готовые cloud resources и credentials.
-
-Не добавляйте реальные passwords, access keys, Terraform state, `.env` или
-private keys в Git.
+Начните с [полного задания](ASSIGNMENT.md).
