@@ -1,4 +1,4 @@
-# BookingKG — Student Starter
+# BookingKG — Student Project
 
 This repository contains the BookingKG application layer for the final DevOps
 capstone. Students receive React, Node.js and PostgreSQL source code and build

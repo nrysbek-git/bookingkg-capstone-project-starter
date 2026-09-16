@@ -1,4 +1,4 @@
-# BookingKG — Student Starter
+# BookingKG — Student Project
 
 Это стартовый репозиторий итогового DevOps capstone.
 
@@ -22,7 +22,7 @@
 - GitHub Actions CI/CD через OIDC;
 - документацию, evidence и cleanup-инструкцию.
 
-В starter намеренно отсутствуют готовые Docker, Kubernetes, Terraform и CI/CD
+В student repository намеренно отсутствуют готовые Docker, Kubernetes, Terraform и CI/CD
 реализации. Не добавляйте в Git пароли, AWS keys, `.env`, kubeconfig или
 Terraform state.
 
