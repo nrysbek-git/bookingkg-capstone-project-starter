@@ -1,5 +1,7 @@
 # AWS budget и cleanup
 
+**Язык:** Русский · [English](COST_AND_CLEANUP_EN.md)
+
 ## Правило безопасности бюджета
 
 Используйте только учебный AWS account/sandbox и разрешённый преподавателем
@@ -51,4 +53,3 @@ Balancers для исправления ошибки. Сначала диагн�
 
 В `EVIDENCE.md` укажите дату cleanup и приложите безопасное подтверждение без
 account secrets. Не коммитьте Terraform state или credential files.
-

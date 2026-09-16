@@ -1,5 +1,7 @@
 # BookingKG — итоговый DevOps Capstone
 
+**Язык:** Русский · [English](ASSIGNMENT_EN.md)
+
 ## 1. Сценарий проекта
 
 Команда разработки передала вам готовое приложение **BookingKG**:

@@ -1,9 +1,11 @@
-# Notice
+# Уведомление
 
-BookingKG and this educational starter were prepared in 2026 by
-**Nargiza Rysbek kyzy**. This student edition contains the BookingKG
-application, assignment, troubleshooting material and evaluation requirements,
-while the student implements the DevOps infrastructure independently.
+**Язык:** Русский · [English](NOTICE_EN.md)
 
-The project is distributed under the MIT License. See the repository license
-files and `MODIFICATIONS.md` for details.
+BookingKG и этот образовательный student-проект подготовлены в 2026 году
+**Nargiza Rysbek kyzy**. В student-редакцию входят приложение BookingKG,
+задание, материалы по диагностике и требования к оцениванию. DevOps-инфраструктуру
+студент реализует самостоятельно.
+
+Проект распространяется по лицензии MIT. Дополнительная информация приведена в
+файлах лицензии и [MODIFICATIONS.md](MODIFICATIONS.md).

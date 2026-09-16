@@ -1,16 +1,18 @@
-# Modifications and Educational Adaptation
+# Изменения и образовательная адаптация
 
-This repository contains the BookingKG travel-booking workload prepared for a
-DevOps and cloud-engineering training program.
+**Язык:** Русский · [English](MODIFICATIONS_EN.md)
 
-The student starter adaptation includes:
+Репозиторий содержит приложение для бронирования путешествий BookingKG,
+подготовленное для программы обучения DevOps и cloud engineering.
 
-- the BookingKG frontend and REST API workload;
-- PostgreSQL initialization and application configuration;
-- student assignment and acceptance criteria;
-- Russian and English educational documentation;
-- troubleshooting, evaluation and AWS cleanup guidance.
+Student-редакция включает:
 
-Ready-made Docker, Kubernetes, Terraform and CI/CD solution files are
-intentionally excluded. The application and educational work are attributed to
-the author identified in `NOTICE.md` and distributed under the MIT License.
+- frontend BookingKG и REST API;
+- инициализацию PostgreSQL и конфигурацию приложения;
+- задание и проверяемые критерии приёмки;
+- русскую и английскую учебную документацию;
+- рекомендации по диагностике, оцениванию, стоимости AWS и cleanup.
+
+Готовые решения Docker, Kubernetes, Terraform и CI/CD намеренно исключены.
+Автор приложения и учебных материалов указан в [NOTICE.md](NOTICE.md). Проект
+распространяется по лицензии MIT.

@@ -1,5 +1,7 @@
 # Troubleshooting guide
 
+**Язык:** Русский · [English](TROUBLESHOOTING_EN.md)
+
 Документ содержит направления диагностики, но не готовую реализацию задания.
 
 ## Git и GitHub
@@ -99,4 +101,3 @@ terminal output, screenshots или issue.
 Приложите название task, ожидаемый результат, точную команду, полный текст ошибки
 без secrets и уже выполненные проверки. Не отправляйте AWS keys, passwords,
 kubeconfig или содержимое Kubernetes Secret.
-
